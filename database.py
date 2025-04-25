@@ -7,7 +7,7 @@ def init_db():
     conn = get_connection()
     cursor = conn.cursor()
 
-    # Таблица пользователей
+ 
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS users (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -17,7 +17,7 @@ def init_db():
     )
     """)
 
-    # Таблица аккаунтов
+
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS accounts (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -28,7 +28,7 @@ def init_db():
     )
     """)
 
-    # Таблица заказов
+   
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS orders (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -41,7 +41,7 @@ def init_db():
     )
     """)
 
-    # Добавляем аккаунты
+  
     accounts_data = [
         ("aeg25qt6q_2574", "playerok.com/profile/AEG", 300),
         ("playerok_aeg2142", "playerok.com/profile/AEG", 400),
