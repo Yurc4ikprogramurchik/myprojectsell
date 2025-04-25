@@ -3,7 +3,7 @@ from database import init_db, get_connection
 from datetime import datetime
 import sqlite3
 
-TOKEN = '7612094054:AAFT1_6qYhRnZql3Nw-2u2H4K-P7m9C6pIQ'
+TOKEN = ''
 ADMIN_ID = 7371632307
 bot = TeleBot(TOKEN)
 
