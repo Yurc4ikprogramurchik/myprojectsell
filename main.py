@@ -4,12 +4,12 @@ from datetime import datetime
 import sqlite3
 
 TOKEN = ''
-ADMIN_ID = 7371632307
+ADMIN_ID = 
 bot = TeleBot(TOKEN)
 
-GOOGLE_DOC_LINK = "https://docs.google.com/document/d/1Ztyvyp_CTCA6yJxNL58WBFzqZ-mIpyCLbX7UosvkVdk/edit?usp=sharing"
+GOOGLE_DOC_LINK = ""
 
-# 🔢 Цены на аккаунты
+
 account_prices = {
     1: 400,
     2: 2500,
